@@ -57,7 +57,6 @@ $ git clone https://github.com/HesaiTechnology/HesaiLidar_General_ROS.git --recu
 
  roslaunch hesai_lidar hesai_lidar.launch lidar_type:="PandarXTM" frame_id:="PandarXTM"
 
-
-GNSS
-
+Novatel pwrpak7 gnss installation
+---------------------------------
 rosdep install --from-paths src --ignore-src -r -y
