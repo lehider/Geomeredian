@@ -46,8 +46,8 @@ $ cd ~/catkin_ws/
 $ catkin_make
 
 
-Hesai Lidar SDK Installatio
-
+Hesai Lidar SDK Installation
+----------------------------
 $ sudo apt-get update
 $ sudo apt-get install python-catkin-tools
 
