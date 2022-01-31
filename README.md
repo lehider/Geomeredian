@@ -70,6 +70,7 @@ Step1: roscore
 
 Step2:  roslaunch rosbridge_server rosbridge_websocket.launch
 
+Step3: ./rosboard/run
 
 UI to record lidar/gnss/slam data
 ---------------------------------
