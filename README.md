@@ -60,3 +60,4 @@ $ git clone https://github.com/HesaiTechnology/HesaiLidar_General_ROS.git --recu
 Novatel pwrpak7 gnss installation
 ---------------------------------
 rosdep install --from-paths src --ignore-src -r -y
+![alt text](https://github.com/lehider/Geomeredian/blob/main/images/Screenshot%20from%202022-01-30%2023-53-42.png)
