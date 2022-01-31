@@ -49,10 +49,13 @@ $ catkin_make
 Hesai Lidar SDK Installation
 ----------------------------
 $ sudo apt-get update
+
 $ sudo apt-get install python-catkin-tools
 
 $ mkdir -p rosworkspace/src
+
 $ cd rosworkspace/src
+
 $ git clone https://github.com/HesaiTechnology/HesaiLidar_General_ROS.git --recursive
 
  roslaunch hesai_lidar hesai_lidar.launch lidar_type:="PandarXTM" frame_id:="PandarXTM"
