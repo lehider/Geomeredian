@@ -49,21 +49,32 @@ $ catkin_make
 Hesai Lidar SDK Installation
 ----------------------------
 $ sudo apt-get update
-
 $ sudo apt-get install python-catkin-tools
 
 $ mkdir -p rosworkspace/src
-
 $ cd rosworkspace/src
-
 $ git clone https://github.com/HesaiTechnology/HesaiLidar_General_ROS.git --recursive
 
+Step 1:- Network configuration
+ change the ip address of hesao to 192.168.1.201
+
+Step 2:-
  roslaunch hesai_lidar hesai_lidar.launch lidar_type:="PandarXTM" frame_id:="PandarXTM"
 
 Novatel pwrpak7 gnss installation
 ---------------------------------
-rosdep install --from-paths src --ignore-src -r -y
 
+To install:
+  git clone https://github.com/novatel/novatel_oem7_driver
+  rosdep install --from-paths src --ignore-src -r -y
+  cd catkin/src
+  catkin_make
+To launch:
+  roslaunch novatel_oem7_driver oem7_net.launch oem7_ip_addr:=192.168.1.10
+
+
+UI to record lidar/gnss/slam data
+---------------------------------
 Steps to launch webUI/rosboard:-
 
 Step1: roscore
@@ -72,6 +83,4 @@ Step2:  roslaunch rosbridge_server rosbridge_websocket.launch
 
 Step3: ./rosboard/run
 
-UI to record lidar/gnss/slam data
----------------------------------
 ![alt text](https://github.com/lehider/Geomeredian/blob/main/images/Screenshot%20from%202022-01-30%2023-53-42.png)
