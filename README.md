@@ -84,7 +84,7 @@ To launch:
   roslaunch novatel_oem7_driver oem7_net.launch oem7_ip_addr:=192.168.1.10
 
 
-UI to record lidar/gnss/slam data
+WebUI to record lidar/gnss/slam data
 ---------------------------------
 Steps to launch webUI/rosboard:-
 
