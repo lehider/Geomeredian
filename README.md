@@ -109,7 +109,7 @@ Step7: Press "Stop" to save the rosbag.
 To Play rosbag on ros
 ---------------------
 
-rosbag play *filename*
+rosbag play *filename* and launch rviz by "rosrun rviz rviz"
 
 Converting rosbag file to PCD file
 -----------------------------------
