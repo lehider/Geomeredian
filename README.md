@@ -94,4 +94,13 @@ Step2:  roslaunch rosbridge_server rosbridge_websocket.launch
 
 Step3: ./rosboard/run
 
+Step4: Launch the hesai and gnss nodes
+
+Step5: Add the display in UI by topic name
+
+Step6: Press "Record" to store rosbag data(lidar,gnss,slam)
+
+Step7: Press "Stop" to save the rosbag.
+
+
 ![alt text](https://github.com/lehider/Geomeredian/blob/main/images/Screenshot%20from%202022-01-30%2023-53-42.png)
