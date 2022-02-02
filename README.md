@@ -37,22 +37,28 @@ Initialize rosdep
 
 
 sudo apt install python-rosdep
+
 rosdep update
 
 Create ROS Space
 ----------------
- mkdir -p ~/catkin_ws/src
+$ mkdir -p ~/catkin_ws/src
+ 
 $ cd ~/catkin_ws/
+
 $ catkin_make
 
 
 Hesai Lidar SDK Installation
 ----------------------------
 $ sudo apt-get update
+
 $ sudo apt-get install python-catkin-tools
 
 $ mkdir -p rosworkspace/src
+
 $ cd rosworkspace/src
+
 $ git clone https://github.com/HesaiTechnology/HesaiLidar_General_ROS.git --recursive
 
 Step 1:- Network configuration
