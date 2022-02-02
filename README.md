@@ -104,3 +104,15 @@ Step7: Press "Stop" to save the rosbag.
 
 
 ![alt text](https://github.com/lehider/Geomeredian/blob/main/images/Screenshot%20from%202022-01-30%2023-53-42.png)
+
+
+To Play rosbag on ros
+---------------------
+
+rosbag play *filename*
+
+Converting rosbag file to PCD file
+-----------------------------------
+
+rosrun pcl_ros bag_to_pcd file.bag hesai/pandar /
+
