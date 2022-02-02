@@ -66,10 +66,15 @@ Novatel pwrpak7 gnss installation
 
 To install:
   git clone https://github.com/novatel/novatel_oem7_driver
+  
   rosdep install --from-paths src --ignore-src -r -y
+  
   cd catkin/src
+  
   catkin_make
+  
 To launch:
+
   roslaunch novatel_oem7_driver oem7_net.launch oem7_ip_addr:=192.168.1.10
 
 
