@@ -130,7 +130,9 @@ Converting PCD to las
 Improvements to do
 ------------------
 
-1.Specify the path to store
+1.Specify the path to store.
+
 2.Automate PCD conversation from WebUI.
+
 3.Converting PCD to lsa with out help of other software .
 
